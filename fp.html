@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	
+		<meta charset="UTF8">
+		<title> TITAN A.E. Backu-up server mode </title>
+		<style type="text/css">
+		
+				h6{ 
+					border-style:solid;	
+					border-color:black;
+				}
+				#bottom {
+				box-sizing: content-box;    
+				width: 100%;
+				height: 10%;
+				padding: 0px;  
+				position: fixed;
+				bottom: 0;
+			 background-color: Slategrey;
+			}
+			form {width: 40%;
+      margin-right: 40%;
+      margin-left: 45%;}
+div.mainform {width:100%;
+              border:1px solid #000}
+		</style>
+	</head>
+	<body>
+		<h1 style="color: rgb(204, 0, 0);; text-align: center; font-size: 35px;">BACK-UP SERVER IS ABOUT TO BE ENABLED </h1>
+		<img src="http://www.titan.gr/UserFiles/File/TitanBGImages/home-page-photo-962015.jpg" alt="Titan_photo">
+		<br> </br>
+		<pre style="font-family:courier;">     Due to some issues that occurred in our data room, the Main Server won't be able to operate. Our Back-up Server will be enabled<br>     as soon as possible. We are sorry for the inconvenience.</br> </pre>
+		<br> </br>
+		<div id="mainform">
+		<form  name="MakeChoice">
+			<select style="text-align:center;" name="choice" id=Menu>
+				<option value="nothing" selected="selected">Selecet a role</option>
+				<option value="https://detfolio.dmst.aueb.gr/students2016/vsokolakis/inetpub/it.html "> Head IT </a></option>
+				<option value="https://detfolio.dmst.aueb.gr/students2016/vsokolakis/inetpub/head_duty.html">Head-Duty Employee</option>
+				<option value="https://detfolio.dmst.aueb.gr/students2016/vsokolakis/inetpub/staff.html"">Staff</option>
+				<option value="https://detfolio.dmst.aueb.gr/students2016/vsokolakis/inetpub/customers_service.html">Customers</option>	
+			</select>
+		</form>
+		</div>
+		<br><br><br><br><br>
+		<div id="bottom"> <b> Διεύθυνση:</b> Χαλκίδος 22Α <br>
+	<b> Τ.Κ.:</b>11143 Αθήνα Ελλάδα <br>
+	<b>Τηλέφωνο:</b> 210 2591111  &ensp; <a href="http://www.titan.gr">Επιστροφή στην αρχική σελίδα </a> &ensp;  &ensp;&copy; Όμιλος ΤΙΤΑΝ   </div>
+		<script type="text/javascript">
+		var urlMenu = document.getElementById('Menu');
+		urlMenu.onchange = function() {
+			var userOption = this.options[this.selectedIndex];
+			if (userOption.value != "nothing") {
+				window.open(userOption.value, "","")
+			}
+		}
+		</script>		
+	</body>
+</html>
